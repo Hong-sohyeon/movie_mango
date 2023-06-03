@@ -67,7 +67,6 @@ for i in range(click_cnt):
     # "평점 더보기" 클릭(리뷰 30개씩 증가)
     driver.find_element(By.CLASS_NAME, "link_fold").click()
     time.sleep(1)
-time.sleep(5)
 
 # >> 해당 페이지에 모든 리뷰 출력 완료
 review_html = driver.page_source
